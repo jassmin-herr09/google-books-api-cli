@@ -1,0 +1,23 @@
+{
+  "name": "8th-google-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "book": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}
