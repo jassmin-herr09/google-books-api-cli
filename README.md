@@ -22,7 +22,10 @@
 ## Getting started
 
 ## Commands
-Enter `book -v` for the version.
+ $ book version or $ book -v for the version
+ $ book help or $ book -h for help
+ 
+
 
 
 

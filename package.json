@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "module": "main.js",
   "bin": {
     "book": "./index.js"
   },
@@ -11,5 +12,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
+  }
 }

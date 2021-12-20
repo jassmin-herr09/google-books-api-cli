@@ -3,6 +3,7 @@
  - the cli.js file then handles user commands by leveraging the tool minimist. 
  - the tool minimist converts the arguments into an object. 
     - example: my input books search, console.log(argsObj) output ->   { _: [ 'search' ] }
+ - each file in src folder for each command.   
 */
 
 import minimist from "minimist";
