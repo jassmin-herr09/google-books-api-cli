@@ -15,7 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "esm": "^3.2.25"
-   
+    "conf": "^10.1.1",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5"
   }
 }

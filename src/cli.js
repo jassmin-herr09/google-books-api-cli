@@ -10,6 +10,7 @@ import minimist from "minimist";
 import { help } from './help';
 import { version } from './version';
 import {search} from './search';
+import { configure } from './configure';
 
 // A list of commands that the CLI app will process along with expected commands : version, help. 
   
