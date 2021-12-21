@@ -19,11 +19,18 @@
 (https://www.npmjs.com/package/esm)
 -babel-less, bundle-less ECMAScript module loader
 
+## [axios]
+
+## [conf]
+npm i conf
+
 ## Getting started
 
 ## Commands
  $ book version or $ book -v for the version
+ 
  $ book help or $ book -h for help
+ 
  $ book search for searching the Google Books API
  
 
