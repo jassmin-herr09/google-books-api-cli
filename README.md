@@ -1,6 +1,6 @@
-# GOOGLE BOOKS API CLI by Jassmin Herrera
+## GOOGLE BOOKS API CLI by Jassmin Herrera
 
-# DEPENDENCIES
+### DEPENDENCIES
 
 ### [Minimist]
  (https://www.npmjs.com/package/minimist)
@@ -24,6 +24,7 @@
 ## Commands
  $ book version or $ book -v for the version
  $ book help or $ book -h for help
+ $ book search for searching the Google Books API
  
 
 
