@@ -2,9 +2,6 @@ const minimist = require('minimist');
 const { version } = require('./package.json');
 const searchusingKeyword = require('./utils/searchusingKeyword');
 
-
-
-
 module.exports = () => {
     
     const args = minimist(process.argv.slice(2));
