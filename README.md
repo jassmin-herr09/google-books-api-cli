@@ -13,7 +13,7 @@ These instructions assume that you have already downloaded GIT and Node.JS  and 
 
 3. Install the project dependencies by running `npm i` from within the 8th-google-cli folder. Please refer to the 'Dependencies' section below. 
 
-4. Additionally, in order to make the local npm package (the 8th-google-cli App) to be globally available in our workstation, we run a command, npm link. This step allows us to run the command at any location from the command line. 
+4. Additionally, in order to make the local npm package (the 8th-google-cli App) to be globally available in our workstation, we run a command, `npm link` . This step allows us to run the command at any location from the command line. 
 
 ## ERROR HANDLING AT SET UP
  Errors such as, 'permission denied' please type `sudo` followed by the command. 
@@ -37,13 +37,13 @@ Here are the project dependencies used. Please click on the name of the dependen
 ## [@babel/plugin-proposal-class-properties]
 
 
-## Commands
+### Commands
 
- # Version Command
+ ## Version Command
 
  $ 8th-google-cli version or $ 8th-google-cli -v for the version
 
- # Help Command
+ ## Help Command
 $ 8th-google-cli help or $ 8th-google-cli -h for the version
  
  
