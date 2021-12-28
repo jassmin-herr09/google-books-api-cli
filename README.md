@@ -54,6 +54,10 @@ $ 8th-google-cli search --keyword `user keyword here`
  - example: $ 8th-google-cli search --keyword cat
  
  
+## Screenshot of App
+
+![CLI](screenshot.jpg)
+
 
 
 

@@ -5,7 +5,7 @@ module.exports = (keyword, books) => {
        console.log(`
        Hello, Book Searcher! 
        You searched for: "${keyword}"
-       Here are 5 books that are related to your search Keyword.   
+       Here are 5 books from the Google Books API, that are related to your search Keyword.   
        `);
        books.data.items.forEach(book => {
          console.log(`
