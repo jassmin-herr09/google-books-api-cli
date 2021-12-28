@@ -1,10 +1,10 @@
-## GOOGLE BOOKS API CLI by Jassmin Herrera
+# GOOGLE BOOKS API CLI by Jassmin Herrera
 ** As of 12/27/21 Edits have been made to this ReadMe to implement feedback.
 
 A command line application that allows you to use the Google Books API to search for books utilizing a keyword from the user, and returning 5 books related to the keyword along with the Author(s), Title, and Publisher. 
 
 
-## Getting started
+# Getting started
 
 These instructions assume that you have already downloaded GIT and Node.JS  and that you have a basic understanding of the Command Line. 
 
@@ -39,7 +39,7 @@ Here are the project dependencies used. Please click on the name of the dependen
 A .env file was created along with a .gitignore. This was created as a means not to commit the API KEY/URL. The API key and the API URL were placed inside the .env file. It is not necessary for the user to configure an API key. 
 
 
-### Commands
+# Commands
 
  ## Version Command
 
