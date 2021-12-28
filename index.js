@@ -1,5 +1,7 @@
 const minimist = require('minimist');
 const { version } = require('./package.json');
+const searchusingKeyword = require('./utils/searchusingKeyword');
+
 
 
 
@@ -26,7 +28,7 @@ module.exports = () => {
         break;
   
       case 'search':
-        search(args);
+        require('./cmds/search')(args,searchusingKeyword);
         break;
   
       case 'save':

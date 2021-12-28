@@ -5,7 +5,8 @@ const menus = {
 
      8th-google-cli [command] <options>
 
-     search.......... search Google API for a book using a keyword. Please use --keyword flag then followed by actual search word.
+     search.......... search Google API for a book using a keyword.
+                      Please use --keyword flag then followed by actual search word.
      save..........save a book to a reading list. 
      list   .............. show the reading list.
      version ............ show current package version.
