@@ -47,7 +47,7 @@ $ 8th-google-cli help or $ 8th-google-cli -h for the version
 ## Search Command
 
 $ 8th-google-cli search --keyword `user keyword here`
-  example: 8th-google-cli search --keyword cats
+ - example: $ 8th-google-cli search --keyword cat
  
  
 
