@@ -10,7 +10,7 @@ module.exports = (keyword, books) => {
     books.data.items.forEach((book) => {
       console.log(`
            Title: ${book.volumeInfo.title}
-           Author: ${book.volumeInfo.authors}
+           Author(s): ${book.volumeInfo.authors}
            Publisher: ${book.volumeInfo.publisher}
            ID: ${book.id}
           `);

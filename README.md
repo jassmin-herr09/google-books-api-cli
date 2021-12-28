@@ -6,7 +6,7 @@ A command line application that allows you to use the Google Books API to search
 
 # Getting started
 
-Before following steps 1-5, it is necessary to have Node already installed, some understanding of the Command line, and Javscript.
+Before following steps 1-5, it is necessary to have Node already installed, some understanding of the Command line, and Javascript.
 
 1. Open up your terminal and clone this repository in a location of your preference.
 
