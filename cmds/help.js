@@ -1,6 +1,5 @@
-
 const menus = {
-    main:`
+  main: `
      Welcome to the main menu! 
 
      8th-google-cli [command] <options>
@@ -12,20 +11,17 @@ const menus = {
      version ............ show current package version.
      help............... show the help menu for a command.`,
 
-     search: `
+  search: `
        8th-google-cli search <options>
        --keyword.......... the actual keyword you would like to serach`,
 
-     save: `
+  save: `
      8th-google-cli save <options>
       --id .......... the ID of the book to add to your reading list. 
-     ` 
+     `,
 };
 
-module.exports = args => {
-    const subCmd = args._[0] === 'help'
-      ? args._[1]
-      : args._[0]
-    console.log(menus[subCmd] || menus.main)
-  };
-
+module.exports = (args) => {
+  const subCmd = args._[0] === "help" ? args._[1] : args._[0];
+  console.log(menus[subCmd] || menus.main);
+};
