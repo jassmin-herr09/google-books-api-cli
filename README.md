@@ -1,5 +1,7 @@
 ## GOOGLE BOOKS API CLI by Jassmin Herrera
-A command line application that allows you to use the Google Books API to search for books and construct a reading list.
+** As of 12/27/21 Edits have been made to this ReadMe to implement feedback.
+
+A command line application that allows you to use the Google Books API to search for books utilizing a keyword from the user, and returning 5 books related to the keyword along with the Author(s), Title, and Publisher. 
 
 
 ## Getting started
@@ -10,16 +12,15 @@ These instructions assume that you have already downloaded GIT and Node.JS  and 
 
 2. Navigate or cd into the folder 8th-google-cli folder.
 
-
 3. Install the project dependencies by running `npm i` from within the 8th-google-cli folder. Please refer to the 'Dependencies' section below. 
 
 4. Additionally, in order to make the local npm package (the 8th-google-cli App) to be globally available in our workstation, we run a command, `npm link` . This step allows us to run the command at any location from the command line. 
 
 ## ERROR HANDLING AT SET UP
- Errors such as, 'permission denied' please type `sudo` followed by the command. 
+- Errors such as, 'permission denied' please type `sudo` followed by the command. 
 
 
-### DEPENDENCIES
+### DEPENDENCIES 
 Here are the project dependencies used. Please click on the name of the dependency to redirect you to the dependency documentation. 
 
 ## [axios]
@@ -30,8 +31,6 @@ Here are the project dependencies used. Please click on the name of the dependen
 
 ## [Jest](https://jestjs.io/docs/getting-started)
  - Javascript Testing 
-
-
 
 ## [@babel/plugin-proposal-class-properties]
 
@@ -44,6 +43,11 @@ Here are the project dependencies used. Please click on the name of the dependen
 
  ## Help Command
 $ 8th-google-cli help or $ 8th-google-cli -h for the version
+
+## Search Command
+
+$ 8th-google-cli search --keyword `user keyword here`
+  example: 8th-google-cli search --keyword cats
  
  
 
