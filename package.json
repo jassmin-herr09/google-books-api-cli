@@ -11,10 +11,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jassmin Herrera",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
+    "jest": "^27.4.5",
     "minimist": "^1.2.5",
     "ora": "^6.0.1"
   },
