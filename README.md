@@ -31,7 +31,6 @@ Here are the project dependencies used. Please click on the name of the dependen
 ## [Jest](https://jestjs.io/docs/getting-started)
  - Javascript Testing 
 
-## [Ora]
 
 
 ## [@babel/plugin-proposal-class-properties]
