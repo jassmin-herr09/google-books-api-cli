@@ -35,6 +35,10 @@ Here are the project dependencies used. Please click on the name of the dependen
 ## [@babel/plugin-proposal-class-properties]
 
 
+## Google API and KEY 
+A .env file was created along with a .gitignore. This was created as a means not to commit the API KEY/URL. The API key and the API URL were placed inside the .env file. It is not necessary for the user to configure an API key. 
+
+
 ### Commands
 
  ## Version Command
