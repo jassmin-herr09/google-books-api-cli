@@ -12,7 +12,7 @@ Before following steps 1-5, it is necessary to have Node already installed, some
 
 2. Navigate or cd into the folder 8th-google-cli.
 
-3. Install the project dependencies by running `npm i` from within the 8th-google-cli folder. Please refer to the 'Dependencies' section below.
+3. Install the project dependencies by running `npm i` from within the 8th-google-cli folder. Please refer to the 'Dependencies' section below. The dependencies can also be used with Yarn, but for my project I used npm.
 
 4. Additionally, in order to make the local npm package (the 8th-google-cli App) to be globally available in our workstation, we run a command, `npm link` . This step allows us to run the command at any location from the command line.
 
@@ -26,17 +26,25 @@ Before following steps 1-5, it is necessary to have Node already installed, some
 
 Here are the project dependencies used. Please click on the name of the dependency to redirect you to the dependency documentation.
 
-## [axios]
+## [axios](https://www.npmjs.com/package/axios)
+
+-Promise based HTTP client for the browser and node.js
+
+`npm install axios`
 
 ### [Minimist](https://www.npmjs.com/package/minimist)
 
-- allows us to parse arguments in our command line
+`npm install minimist`
+
+- This module is the guts of optimist's argument parser without all the fanciful decoration.
 
 ## [Jest](https://jestjs.io/docs/getting-started)
 
 - Javascript Testing
 
-## [@babel/plugin-proposal-class-properties]
+## [@babel/plugin-proposal-class-properties](https://www.npmjs.com/package/@babel/plugin-proposal-class-properties)
+
+`npm install --save-dev @babel/plugin-proposal-class-properties`
 
 ## Google API and KEY
 
@@ -63,6 +71,10 @@ $ 8th-google-cli search --keyword `user keyword here`
 Jest was used to create our tests.
 
 In order to run our tests, it is necessary to install Jest as a dev dependency using `npm i --save-dev jest` and inside our terminal run the following command: `npm test`
+
+# Code Formatter
+
+A prettier rc file was used to format code.
 
 ## Screenshot of App
 
