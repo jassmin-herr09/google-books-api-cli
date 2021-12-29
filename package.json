@@ -15,10 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
-    "jest": "^27.4.5",
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.16.5"
+    "@babel/plugin-proposal-class-properties": "^7.16.5",
+    "jest": "^27.4.5"
   }
 }
