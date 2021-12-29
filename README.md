@@ -79,3 +79,8 @@ A prettier rc file was used to format code.
 ## Screenshot of App
 
 ![CLI](screenshot.jpg)
+
+## Stretch Goals and Challenges
+
+-create a reading list where a user can save their book.
+-create more tests for the command.
