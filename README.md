@@ -58,6 +58,12 @@ $ 8th-google-cli search --keyword `user keyword here`
 
 - example: $ 8th-google-cli search --keyword cat
 
+# Testing
+
+Jest was used to create our tests.
+
+In order to run our tests, it is necessary to install Jest as a dev dependency using `npm i --save-dev jest` and inside our terminal run the following command: `npm test`
+
 ## Screenshot of App
 
 ![CLI](screenshot.jpg)
