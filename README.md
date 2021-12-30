@@ -2,6 +2,8 @@
 
 \*\* As of 12/27/21 Edits have been made to this ReadMe to implement feedback.
 
+- 12/29/21 Edit on ReadMe on folder name on Step #1
+
 A command line application that allows you to use the Google Books API to search for books utilizing a keyword from the user, and returning 5 books related to the keyword along with the Author(s), Title, and Publisher.
 
 # Getting started
@@ -10,9 +12,9 @@ Before following steps 1-5, it is necessary to have Node already installed, some
 
 1. Open up your terminal and clone this repository in a location of your preference.
 
-2. Navigate or cd into the folder 8th-google-cli.
+2. Navigate or cd into the folder google-books-api-cli
 
-3. Install the project dependencies by running `npm i` from within the 8th-google-cli folder. Please refer to the 'Dependencies' section below. The dependencies can also be used with Yarn, but for my project I used npm.
+3. Install the project dependencies by running `npm i` from within the google-books-api-cli folder. Please refer to the 'Dependencies' section below. The dependencies can also be used with Yarn, but for my project I used npm.
 
 4. Additionally, in order to make the local npm package (the 8th-google-cli App) to be globally available in our workstation, we run a command, `npm link` . This step allows us to run the command at any location from the command line.
 
